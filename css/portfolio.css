@@ -1,0 +1,379 @@
+/*PRE*/
+input, select, textarea, table {font:inherit; color:inherit; vertical-align:middle; outline:none; text-align:left; line-height:normal}
+input::-webkit-input-placeholder {color:#8f8f8f}
+a, a:hover {color:inherit; text-decoration:none; cursor:text}
+a[href], [type="submit"], [type="button"], [role="button"] {cursor:pointer !important}
+p {line-height:normal}
+img {vertical-align:middle; width:auto; height:auto; max-width:100%; max-height:100%}
+img[style*='url'] {content:url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'); background:no-repeat 50% 50%; background-size:cover}
+hr {background:none; border:none; border-top:0.1em solid #333; padding:0; margin:5em 0; font-size:0; line-height:0}
+iframe {background:none; border:none; max-width:100%}
+
+/* -------------------------- PORTFOLIO -------------------------- */
+
+/* Skanderborg */ 
+.portfolioSkander {color:#e4e4de; background:#666764} 	/* text color; background color */ 
+.portfolioSkander h1 {color:#f2f2f2} 	/* h1 color */ 
+.portfolioSkander h2 {color:#e4e4de} 	/* h2 color */ 
+.portfolioSkander nav {background:rgba(214, 166, 58, 0.97)} 	/* nav background */ 
+.portfolioSkander .top .btnBack {background-image:url(gfx/btn-back.svg)} 	/* button 'back' image */ 
+.portfolioSkander .top .description {color:#f7ba27} 	/* description color (under h1) */ 
+.portfolioSkander .top .slider .pagination li span {background-color:#474846} 	/* pagination background */ 
+.portfolioSkander .top .slider .pagination li:hover span {background-color:#abacaa} 	/* pagination+hover background */ 
+.portfolioSkander .top .slider .pagination li.active span {background-color:#666764} 	/* active pagination background */ 
+.portfolioSkander .top .slider .pagination li.active:hover span {background-color:#666764} 	/* active pagination+hover background */
+.portfolioSkander .top .slider .pagination li.active .circle {border:0.3em solid #fdbb34} 	/* active pagination border color */ 
+.portfolioSkander .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(283,187,52,0.8)} 	/* dragger bar background */
+.portfolioSkander .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioSkander footer span {font-size:1.4em; font-weight:bold; color:rgba(221,221,224,0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+	.portfolioSkander .top .slider .pagination li.active .circle {border:0.2em solid #fdbb34} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* Askautomotive */ 
+.portfolioAskautomotive {color:#454545; background:#ffffff} 	/* text color; background color */ 
+.portfolioAskautomotive h1 {color:#262526} 	/* h1 color */ 
+.portfolioAskautomotive .top .description {color:#e10d0c} 	/* description color (under h1) */ 
+.portfolioAskautomotive h2 {color:#454545} 	/* h2 color */ 
+.portfolioAskautomotive nav {background:rgba(224, 13, 13, 0.9)} 	/* nav background */ 
+.portfolioAskautomotive .top .btnBack {background-image:url(../images/btn-back-dark.svg)} 	/* button 'back' image */ 
+
+.portfolioAskautomotive .top .btnBack:hover {background-color:#f3f3f3}		/* button 'back' BG color */ 
+.portfolioAskautomotive .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto;box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}	/* FULLWIDTH IMAGE */ 
+.portfolioAskautomotive .top .slider .pagination li span {background-color:#cccccc} 	/* pagination background */ 
+.portfolioAskautomotive .top .slider .pagination li:hover span {background-color:#ebebee} 	/* pagination+hover background */ 
+.portfolioAskautomotive .top .slider .pagination li.active span {background-color:#ffffff} 	/* active pagination background */ 
+.portfolioAskautomotive .top .slider .pagination li.active:hover span {background-color:#ffffff} 	/* active pagination+hover background */
+.portfolioAskautomotive .top .slider .pagination li.active .circle {border:0.3em solid #6db93d} 	/* active pagination border color */ 
+.portfolioAskautomotive .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(93,177,40, 0.8)} 	/* dragger bar background */
+.portfolioAskautomotive .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioAskautomotive footer span {font-size:1.4em; font-weight:bold; color:rgba(58,58,88, 0.3)} /* 'made with love and music' background */
+.portfolioAskautomotive .visit-btn a{color:#e10d0c;border-color: #e10d0c;}
+@media screen and (max-width:720px) {
+.portfolioAskautomotive .top .slider .pagination li.active .circle {border:0.2em solid #6db93d} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* Naturama */ 
+.portfolioNaturama {color:#454545; background:#f5f5f5} 	/* text color; background color */ 
+.portfolioNaturama h1 {color:#262526} 	/* h1 color */
+.portfolioNaturama .top .description {color:#8cb11c} 	/* description color (under h1) */ 
+.portfolioNaturama h2 {color:#454545} 	/* h2 color */ 
+.portfolioNaturama nav {background:rgba(140,177,28, 0.97)} 	/* nav background */ 
+.portfolioNaturama .top .btnBack {background-image:url(gfx/btn-back-dark.svg)} 	/* button 'back' image */ 
+.portfolioNaturama .top .btnBack:hover {background-color:#e7e7e7}		/* button 'back' BG color */ 
+.portfolioNaturama .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto}	/* FULLWIDTH IMAGE */ 
+.portfolioNaturama .top .slider .pagination li span {background-color:#c4c4c4} 	/* pagination background */ 
+.portfolioNaturama .top .slider .pagination li:hover span {background-color:#e1e1e5} 	/* pagination+hover background */ 
+.portfolioNaturama .top .slider .pagination li.active span {background-color:#f5f5f5} 	/* active pagination background */ 
+.portfolioNaturama .top .slider .pagination li.active:hover span {background-color:#f5f5f5} 	/* active pagination+hover background */
+.portfolioNaturama .top .slider .pagination li.active .circle {border:0.3em solid #96b831} 	/* active pagination border color */ 
+.portfolioNaturama .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(93,177,40, 0.8)} 	/* dragger bar background */
+.portfolioNaturama .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioNaturama footer span {font-size:1.4em; font-weight:bold; color:rgba(58,58,88, 0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+.portfolioNaturama .top .slider .pagination li.active .circle {border:0.2em solid #96b831} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* VisitDenmark */ 
+.portfolioVisitdenmark {color:#c0c0bd; background:#2f3133} 	/* text color; background color */ 
+.portfolioVisitdenmark h1 {color:#f2f2f2} 	/* h1 color */
+.portfolioVisitdenmark .top .description {color:#d8284b} 	/* description color (under h1) */ 
+.portfolioVisitdenmark h2 {color:#c0c0bd} 	/* h2 color */ 
+.portfolioVisitdenmark nav {background:rgba(182,46,73, 0.97)} 	/* nav background */ 
+.portfolioVisitdenmark .top .btnBack {background-image:url(gfx/btn-back.svg)} 	/* button 'back' image */ 
+.portfolioVisitdenmark .top .btnBack:hover {background-color:#212224}		/* button 'back' BG color */ 
+.portfolioVisitdenmark .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto}	/* FULLWIDTH IMAGE */ 
+.portfolioVisitdenmark .top .slider .pagination li span {background-color:#1a1b1c} 	/* pagination background */ 
+.portfolioVisitdenmark .top .slider .pagination li:hover span {background-color:#494b4d} 	/* pagination+hover background */ 
+.portfolioVisitdenmark .top .slider .pagination li.active span {background-color:#2f3133} 	/* active pagination background */ 
+.portfolioVisitdenmark .top .slider .pagination li.active:hover span {background-color:#2f3133} 	/* active pagination+hover background */
+.portfolioVisitdenmark .top .slider .pagination li.active .circle {border:0.3em solid #bf2947} 	/* active pagination border color */ 
+.portfolioVisitdenmark .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(191,41,71, 0.8)} 	/* dragger bar background */
+.portfolioVisitdenmark .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioVisitdenmark footer span {font-size:1.4em; font-weight:bold; color:rgba(221,221,224,0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+.portfolioVisitdenmark .top .slider .pagination li.active .circle {border:0.2em solid #bf2947} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* Mindbank */ 
+.portfolioMindbank {color:#bfb7b0; background:#433b38} 	/* text color; background color */ 
+.portfolioMindbank h1 {color:#f2f2f2} 	/* h1 color */
+.portfolioMindbank .top .description {color:#ba7d51} 	/* description color (under h1) */ 
+.portfolioMindbank h2 {color:#bfb7b0} 	/* h2 color */ 
+.portfolioMindbank nav {background:rgba(179,120,78, 0.97)} 	/* nav background */ 
+.portfolioMindbank .top .btnBack {background-image:url(gfx/btn-back.svg)} 	/* button 'back' image */ 
+.portfolioMindbank .top .btnBack:hover {background-color:#332d2b}		/* button 'back' BG color */ 
+.portfolioMindbank .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto}	/* FULLWIDTH IMAGE */ 
+.portfolioMindbank .top .slider .pagination li span {background-color:#1a1b1c} 	/* pagination background */ 
+.portfolioMindbank .top .slider .pagination li:hover span {background-color:#494b4d} 	/* pagination+hover background */ 
+.portfolioMindbank .top .slider .pagination li.active span {background-color:#433b38} 	/* active pagination background */ 
+.portfolioMindbank .top .slider .pagination li.active:hover span {background-color:#433b38} 	/* active pagination+hover background */
+.portfolioMindbank .top .slider .pagination li.active .circle {border:0.3em solid #bf2947} 	/* active pagination border color */ 
+.portfolioMindbank .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(191,41,71, 0.8)} 	/* dragger bar background */
+.portfolioMindbank .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioMindbank footer span {font-size:1.4em; font-weight:bold; color:rgba(221,221,224,0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+.portfolioMindbank .top .slider .pagination li.active .circle {border:0.2em solid #bf2947} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* FluentBooks */ 
+.portfolioFluentbooks {color:#4b4649; background:#f0f0f0} 	/* text color; background color */ 
+.portfolioFluentbooks h1 {color:#262425} 	/* h1 color */
+.portfolioFluentbooks .top .description {color:#bf1e76} 	/* description color (under h1) */ 
+.portfolioFluentbooks h2 {color:#4b4649} 	/* h2 color */ 
+.portfolioFluentbooks nav {background:rgba(191,30,118, 0.97)} 	/* nav background */ 
+.portfolioFluentbooks .top .btnBack {background-image:url(gfx/btn-back-dark.svg)} 	/* button 'back' image */ 
+.portfolioFluentbooks .top .btnBack:hover {background-color:#e7e7e7}		/* button 'back' BG color */ 
+.portfolioFluentbooks .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto}	/* FULLWIDTH IMAGE */ 
+.portfolioFluentbooks .top .slider .pagination li span {background-color:#c0c0c0} 	/* pagination background */ 
+.portfolioFluentbooks .top .slider .pagination li:hover span {background-color:#e1e1e5} 	/* pagination+hover background */ 
+.portfolioFluentbooks .top .slider .pagination li.active span {background-color:#f0f0f0} 	/* active pagination background */ 
+.portfolioFluentbooks .top .slider .pagination li.active:hover span {background-color:#f0f0f0} 	/* active pagination+hover background */
+.portfolioFluentbooks .top .slider .pagination li.active .circle {border:0.3em solid #c43382} 	/* active pagination border color */ 
+.portfolioFluentbooks .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(93,177,40, 0.8)} 	/* dragger bar background */
+.portfolioFluentbooks .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioFluentbooks footer span {font-size:1.4em; font-weight:bold; color:rgba(58,58,88, 0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+.portfolioFluentbooks .top .slider .pagination li.active .circle {border:0.2em solid #c43382} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* PointShop */ 
+.portfolioPointshop {color:#454545; background:#f5f5f5} 	/* text color; background color */ 
+.portfolioPointshop h1 {color:#262425} 	/* h1 color */
+.portfolioPointshop .top .description {color:#829aa8} 	/* description color (under h1) */ 
+.portfolioPointshop h2 {color:#454545} 	/* h2 color */ 
+.portfolioPointshop nav {background:rgba(75,95,108, 0.97)} 	/* nav background */ 
+.portfolioPointshop .top .btnBack {background-image:url(gfx/btn-back-dark.svg)} 	/* button 'back' image */ 
+.portfolioPointshop .top .btnBack:hover {background-color:#e6e8e8}		/* button 'back' BG color */ 
+.portfolioPointshop .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto}	/* FULLWIDTH IMAGE */ 
+.portfolioPointshop .top .slider .pagination li span {background-color:#c4c4c4} 	/* pagination background */ 
+.portfolioPointshop .top .slider .pagination li:hover span {background-color:#e1e1e5} 	/* pagination+hover background */ 
+.portfolioPointshop .top .slider .pagination li.active span {background-color:#f5f5f5} 	/* active pagination background */ 
+.portfolioPointshop .top .slider .pagination li.active:hover span {background-color:#f5f5f5} 	/* active pagination+hover background */
+.portfolioPointshop .top .slider .pagination li.active .circle {border:0.3em solid #8da3b0} 	/* active pagination border color */ 
+.portfolioPointshop .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(93,177,40, 0.8)} 	/* dragger bar background */
+.portfolioPointshop .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioPointshop footer span {font-size:1.4em; font-weight:bold; color:rgba(58,58,88, 0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+.portfolioPointshop .top .slider .pagination li.active .circle {border:0.2em solid #8da3b0} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* LRS */ 
+.portfolioLRS {color:#454545; background:#f5f5f5} 	/* text color; background color */ 
+.portfolioLRS h1 {color:#262425} 	/* h1 color */
+.portfolioLRS .top .description {color:#32965f} 	/* description color (under h1) */ 
+.portfolioLRS h2 {color:#454545} 	/* h2 color */ 
+.portfolioLRS nav {background:rgba(9,139,73, 0.97)} 	/* nav background */ 
+.portfolioLRS .top .btnBack {background-image:url(gfx/btn-back-dark.svg)} 	/* button 'back' image */ 
+.portfolioLRS .top .btnBack:hover {background-color:#e6e8e8}		/* button 'back' BG color */ 
+.portfolioLRS .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto}	/* FULLWIDTH IMAGE */ 
+.portfolioLRS .top .slider .pagination li span {background-color:#c4c4c4} 	/* pagination background */ 
+.portfolioLRS .top .slider .pagination li:hover span {background-color:#e1e1e5} 	/* pagination+hover background */ 
+.portfolioLRS .top .slider .pagination li.active span {background-color:#f5f5f5} 	/* active pagination background */ 
+.portfolioLRS .top .slider .pagination li.active:hover span {background-color:#f5f5f5} 	/* active pagination+hover background */
+.portfolioLRS .top .slider .pagination li.active .circle {border:0.3em solid #26a866} 	/* active pagination border color */ 
+.portfolioLRS .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(93,177,40, 0.8)} 	/* dragger bar background */
+.portfolioLRS .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioLRS footer span {font-size:1.4em; font-weight:bold; color:rgba(58,58,88, 0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+.portfolioLRS .top .slider .pagination li.active .circle {border:0.2em solid #26a866} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* Behind the Scenes */ 
+.portfolioBtS {color:#454545; background:#f5f5f5} 	/* text color; background color */ 
+.portfolioBtS h1 {color:#262425} 	/* h1 color */
+.portfolioBtS .top .description {color:#4c85cd} 	/* description color (under h1) */ 
+.portfolioBtS h2 {color:#454545} 	/* h2 color */ 
+.portfolioBtS nav {background:rgba(78,116,165, 0.97)} 	/* nav background */ 
+.portfolioBtS .top .btnBack {background-image:url(gfx/btn-back-dark.svg)} 	/* button 'back' image */ 
+.portfolioBtS .top .btnBack:hover {background-color:#e6e8e8}		/* button 'back' BG color */ 
+.portfolioBtS .contentHeader .imgf {position:relative; max-width:1290em; margin:9em auto 3.7em auto}	/* FULLWIDTH IMAGE */ 
+.portfolioBtS .contentHeader .imgf2 {position:relative; max-width:1290em; margin:0em auto 12em auto}	/* FULLWIDTH IMAGE 2*/ 
+.portfolioBtS .top .slider .pagination li span {background-color:#c4c4c4} 	/* pagination background */ 
+.portfolioBtS .top .slider .pagination li:hover span {background-color:#e1e1e5} 	/* pagination+hover background */ 
+.portfolioBtS .top .slider .pagination li.active span {background-color:#f5f5f5} 	/* active pagination background */ 
+.portfolioBtS .top .slider .pagination li.active:hover span {background-color:#f5f5f5} 	/* active pagination+hover background */
+.portfolioBtS .top .slider .pagination li.active .circle {border:0.3em solid #26a866} 	/* active pagination border color */ 
+.portfolioBtS .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background-color: rgba(78,116,165, 0.8)} 	/* dragger bar background */
+.portfolioBtS .contentHeader .pageName {color:#e4e4de} 	/* page name background */
+.portfolioBtS footer span {font-size:1.4em; font-weight:bold; color:rgba(58,58,88, 0.3)} /* 'made with love and music' background */
+@media screen and (max-width:720px) {
+.portfolioBtS .top .slider .pagination li.active .circle {border:0.2em solid #26a866} 	/* active pagination border width (mobile layout) */ 
+}
+
+/* -------------------------- PORTFOLIO END -------------------------- */
+
+
+h1 {line-height:normal; font-weight:bold; margin-bottom:2em}
+h2 {line-height:normal; margin-bottom:4.8em}
+h1 span, h2 span {font-size:7.2em}
+
+.clearfix {min-height:1%}
+.clearfix:after {display:block; content:""; font-size:0; line-height:0; height:0; visibility:hidden; clear:both}
+
+/*set default text size and overwrite later, where is needed*/
+.text {display:inline-block; width:100%; font-size:2.5em; text-align:left}
+p {max-width:78em; line-height:1.7; margin:auto}
+p + p {margin-top:5em}
+
+.img {position:relative; margin-bottom:3em}
+
+/*.disabled {opacity:0.4; cursor:auto}*/
+
+/*FONT*/
+/*@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i|Titillium+Web:400,600,700');*/
+.PTSerif
+{font-family:"PT Serif", serif}
+.TitilliumWeb, .description, footer span
+{font-family:"Titillium Web", sans-serif}
+
+/*LAYOUT*/
+html {height:100%}
+body {min-height:100%; font:10px/1 "PT Serif", serif; text-align:center}
+.wrapper {position:relative; max-width:120em; margin:auto}
+.wrapper-fullwidth {position:relative; max-width:1920em; margin:auto}
+.visit-btn a{font-weight: 600;color: #4977d4;text-align: center;display: inline-block;border-bottom: 2px solid #4977d4;margin-top: 5em;}
+/*top*/
+.top {position:relative; padding-top:9.5em; margin-bottom:15em}
+.top .description {display:block; text-transform:uppercase; font-weight:600; margin-bottom:8.4em}
+.top .description span {font-size:1.8em}
+.top .slider {margin-bottom:8.5em}
+.top .slider .img ul {overflow:hidden; white-space:nowrap; font-size:0}
+.top .slider .img li {display:inline-block; width:100%}
+.top .slider .img li img {display:inline-block; max-width:100%}
+.top .slider .pagination li {display:inline-block; position:relative; width:1.6em; height:1.6em; border-radius:5em; cursor:pointer}
+.top .slider .pagination li span {display:inline-block; position:absolute; width:1.4em; height:1.4em; top:0.3em; left:0.3em; border-radius:50px; transition:all 0.2s}
+.top .slider .pagination li.active .wrapper {width:2em; height:2em; position:absolute; clip:rect(1em, 2em, 2em, 0)}
+.top .slider .pagination li.active .circle {width:1.4em; height:1.4em; border-radius:5em; position:absolute; clip:rect(0, 2em, 1em, 0)}
+.top .slider .pagination li.active div[data-anim~=base] {-webkit-animation-iteration-count:1; -webkit-animation-fill-mode:forwards; -webkit-animation-timing-function:linear}
+.top .slider .pagination li.active .wrapper[data-anim~=wrapper] {-webkit-animation-duration:0.01s; -webkit-animation-delay:0.2s; -webkit-animation-name:close-wrapper}
+.top .slider .pagination li.active .circle[data-anim~=left] {-webkit-animation-duration:0.4s; -webkit-animation-name:left-spin}
+.top .slider .pagination li.active .circle[data-anim~=right] {-webkit-animation-duration:0.2s; -webkit-animation-name:right-spin}
+@keyframes right-spin {from {transform:rotate(0deg)} to {transform:rotate(180deg)}}
+@-webkit-keyframes right-spin {from {-webkit-transform:rotate(0deg)} to {-webkit-transform:rotate(180deg)}}
+@keyframes left-spin {from {transform:rotate(0deg)} to {transform:rotate(360deg)}}
+@-webkit-keyframes left-spin {from {-webkit-transform:rotate(0deg)} to {-webkit-transform:rotate(360deg)}}
+@keyframes close-wrapper {to {clip:rect(auto, auto, auto, auto)}}
+@-webkit-keyframes close-wrapper {to {clip:rect(auto, auto, auto, auto)}}
+.top .slider .pagination li+li {margin-left:1.6em}
+.top .slider .arrowLeft, .top .slider .arrowRight {display:block; position:absolute; width:5em; height:7em; top:50%; margin-top:-3.5em; background-color:rgba(12,12,12,0.2); background-position:50% 50%; background-repeat:no-repeat; background-size:auto; cursor:pointer}
+.top .slider .arrowLeft {left:-5em; background-image:url(gfx/arrow-left.png)}
+.top .slider .arrowRight {right:-5em; background-image:url(gfx/arrow-right.png)}
+.top .btnBack {display:block; position:absolute; width:7.9em; height:6em; top:0; left:50%; margin-left:-4em; background-repeat:no-repeat; background-size:auto; background-position:center}
+.top .btnBack:hover {background-color:#474846}
+
+/*mobile*/
+.mobile {margin-bottom:13em}
+.mobile ul {white-space:nowrap}
+.mobile ul li {display:inline-block; width:26.4em; height:46.9em; border:0.1em solid transparent; box-shadow:0.5em 0.5em 1em rgba(0,0,0,0.2); background-repeat:no-repeat}
+.mobile ul li + li {margin-left:2.9em}
+
+/*contentHeader*/
+.contentHeader {margin-bottom:0em}
+.contentHeader .img {position:relative; max-width:120em; margin:9em auto 3.7em auto}
+.contentHeader .pageName {display:inline-block; font-style:italic; font-size:1.6em}
+
+/*footer*/
+footer {height:6.3em; padding-top:9.1em; background:url(gfx/bg-footer.png); background-size:cover; background-repeat:no-repeat; background-position:50% 50%}
+footer span {font-size:1.4em; font-weight:bold; text-transform:uppercase}
+
+@media screen and (max-width:1366px) {
+	h1 {margin-bottom:1.7em}
+	h2 {margin-bottom:2.6em}
+	h1 span, h2 span {font-size:6.8em}
+
+	.text {font-size:2.1em}
+	p {max-width:70em; line-height:1.7; margin:auto}
+	p + p {margin-top:3.7em}
+
+	.img {margin-bottom:2.7em}
+.imgf {margin-bottom:2.7em}
+
+	.top {margin-bottom:12em}
+	.top .description {margin-bottom:7.8em}
+	.top .description span {font-size:1.6em}
+	.top .slider {max-width:90%; margin:0 auto 8.3em}
+	.top .slider .img li {background-size:cover}
+
+	.mobile {margin-bottom:11.2em}
+
+	.contentHeader {margin-bottom:10.4em}
+	.contentHeader h2 {margin-bottom:3.1em}
+	.contentHeader .img {margin:7.9em auto 3.7em auto}
+}
+
+@media screen and (max-width:1249px) {
+	p {max-width:81%}
+	p + p {margin-top:5em}
+
+	h1 {margin-bottom:1.8em}
+	h1 span, h2 span {font-size:6em}
+
+	
+	.top {padding-top:7.4em; margin-bottom:8.3em; overflow-x:hidden}
+	.top .description {margin-bottom:5.8em}
+	.top .description span {font-size:1.4em}
+	.top .slider {max-width:70.3%; margin:0 auto 8.5em}
+	.top .slider .img ul {overflow:visible}
+	.top .slider .img ul::-webkit-scrollbar {height: 0}
+	.top .slider .img ul {-ms-overflow-style: none}
+	.top .slider .img ul {overflow: -moz-scrollbars-none}
+	.top .slider .img li {display:inline-block; width:100%}
+	.top .slider .img li+li {margin-left:2.1%}
+	.top .slider .arrowLeft, .top .slider .arrowRight {display:none}
+
+	.mobile {margin-bottom:9.2em}
+
+	.contentHeader {margin-bottom:5.6em}
+	.contentHeader h2 {margin-bottom:3.5em}
+	.contentHeader p {max-width:54%}
+	.contentHeader .img {max-width:88.3%; margin:6.6em auto 2.8em auto}
+	.contentHeader .imgf {margin:6.6em auto 2.8em auto}
+	.contentHeader .imgf2 {margin:6.6em auto 2.8em auto}
+}
+
+@media screen and (max-width:950px) {
+	.top .slider {max-width:93.75%}
+
+	.contentHeader p {max-width:79%}
+	.contentHeader .img {max-width:93.75%; margin:7.9em auto 3.8em auto}
+
+	footer {padding-top:9.3em}
+}
+
+@media screen and (max-width:720px) {
+	.text {font-size:1.8em}
+	p {max-width:90%; line-height:1.6}
+	p + p {margin-top:3.7em}
+
+	h1 {margin-bottom:1em; line-height:2.9em}
+	h1 span, h2 span {font-size:3em}
+
+	.img {margin-bottom:2.8em}
+	.imgf {margin-bottom:2.8em}
+	.imgf2 {margin-bottom:2.8em}
+
+	.top {padding-top:6.8em; margin-bottom:5.2em}
+	.top .description {margin-bottom:3.8em}
+	.top .description span {font-size:1.3em}
+	.top .slider {max-width:87.5%; margin:0 auto 5em}
+	.top .slider .img li+li {margin-left:3.4%}
+	.top .slider .pagination li {width:1.2em; height:1.2em}
+	.top .slider .pagination li span {width:1.1em; height:1.1em; top:0.2em; left:0.2em}
+	.top .slider .pagination li.active .wrapper {width:1.5em; height:1.5em}
+	.top .slider .pagination li.active .circle {width:1.1em; height:1.1em}
+	.top .slider .pagination li+li {margin-left:1.4em}
+	.top .btnBack {width:5.6em; height:4.3em; margin-left:-2.7em; background-size:27%}
+
+	.mobile {margin-bottom:5.1em}
+	.mobile ul li {width:19.1em; height:33.8em; background-size:cover}
+	.mobile ul li + li {margin-left:1.8em}
+	
+	.contentHeader h2 {margin-bottom:2.4em}
+	.contentHeader p {max-width:90%}
+	.contentHeader .img {max-width:90%; margin:5.8em auto 2em auto}
+	.contentHeader .pageName {font-size:1.4em}
+
+	footer {padding-top:3.9em}
+	footer span {font-size:1.1em}
+}
