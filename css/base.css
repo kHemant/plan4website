@@ -206,12 +206,12 @@ footer .gif.active {left:0; top:0; right:0; bottom:0; cursor:pointer}
 	#work .listWork li {float:left; width:50%}
 	#work .listWork li:nth-child(n+4) {width:50%}
 	#work .listWork li img {display:none}
-	#work .listWork li img.response {display:block; min-width:100%}
+/* 	#work .listWork li img.response {display:block; min-width:100%}
 	#work .listWork li:nth-child(4) a {background-image:url(static/work/mindbank_rec.jpg)!important}
 	#work .listWork li:nth-child(5) a {background-image:url(static/work/fluentbooks_rec.jpg)!important}
 	#work .listWork li:nth-child(6) a {background-image:url(static/work/skanderborg_rec.jpg)!important}
 	#work .listWork li:nth-child(7) a {background-image:url(static/work/sharkpro_rec.jpg)!important}
-	#work .listWork li:nth-child(8) a {background-image:url(static/work/lrs_rec.jpg)!important}
+	#work .listWork li:nth-child(8) a {background-image:url(static/work/lrs_rec.jpg)!important} */
 	#work .clients li {height:7.7em; line-height:7.7em}
 	#work .clients li:nth-child(n+5) {margin-top:7.7em}
 	
