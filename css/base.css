@@ -306,6 +306,7 @@ footer .gif.active {left:0; top:0; right:0; bottom:0; cursor:pointer}
 	#work h2 {margin-bottom:3.2em}
 	#work .listWork {max-width:91%; margin:0 auto 4em auto}
 	#work .listWork li, #work .listWork li:nth-child(n+4) {float:none; width:100%}
+	#work .listWork li a{height:190px}
 	#work .listWork li .bg span {font-size:2em}
 	#work .clients {padding:0}
 	#work .clients li {float:left; width:48%; line-height:6em; margin:0; text-align:center}
